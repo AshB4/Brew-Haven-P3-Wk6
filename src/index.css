@@ -11,3 +11,9 @@
     @apply min-h-screen;
   }
 }
+
+@layer components {
+  .input-style {
+    @apply w-full rounded-md border border-coffee-crema bg-white px-3 py-2 text-coffee-dark outline-none focus:border-coffee-caramel focus:ring-2 focus:ring-coffee-caramel/20;
+  }
+}
