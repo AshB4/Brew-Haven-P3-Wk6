@@ -2,6 +2,7 @@ import { NavLink, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import CheckoutPage from "./pages/CheckoutPage";
+import Footer from "./components/Footer/Footer";
 import "./index.css";
 import "./App.css";
 
@@ -45,6 +46,8 @@ function App() {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
